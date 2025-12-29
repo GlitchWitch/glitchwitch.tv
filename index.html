@@ -1,43 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>glitchwitch.tv</title>
     <meta name="description" content="Looking to stalk Jade Null (aka GlitchWitch) in Winnipeg? They made it easier for you!">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark">
+    <link rel="icon" href="https://www.glitchwitch.ca/favicon.ico" sizes="any">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="bg-neutral-900">
     <div class="bg-neutral-900 text-neutral-200 min-h-screen flex flex-col font-mono max-w-4xl mx-auto">
-      <header class="p-4">
-        <div class="text-3xl md:text-6xl py-2">GlitchWitch [.tv] <span class="text-sm align-top inline">They/Them</span>
+      <header class="p-4 text-center">
+        <h1 class="text-3xl md:text-6xl py-2 font-bold tracking-tight">
+          GlitchWitch <span class="text-orange-400">[.tv]</span>
+          <span class="text-base align-top inline ml-2">They/Them</span>
+        </h1>
+        <div class="text-lg pb-2 italic">
+          Jade Null <span class="hidden sm:inline">=</span> <span class="font-semibold">Non-Binary • Queer • Hacker</span>
         </div>
-        <div class="text-lg pb-4">Jade Null = Non-Binary | Queer | Hacker</div>
-
       </header>
-      <nav class="bg-neutral-800 p-4 text-sm md:text-base grid-cols-1 md:grid md:grid-cols-2 lg:grid-cols-4">
-        <div class="mx-auto">
-          <a href="https://glitchwitch.ca/" class="underline hover:font-extrabold border-x-6 border-orange-200 px-1.5">
-          About (.ca)</a>
-        </div>
-        <div class="mx-auto">
-          <a href="https://glitchwitch.io/" class="underline hover:font-extrabold border-x-6 border-orange-200 px-1.5">
-          Hacking (.io)</a>
-        </div>
-        <div class="mx-auto">
-          <a href="https://glitchwitch.fm/" class="underline hover:font-extrabold border-x-6 border-orange-200 px-1.5">
-          Music & Flow (.fm)</a>
-        </div>
-        <div class="mx-auto">
-          <a href="https://glitchwitch.tv/" class="underline font-extrabold border-x-6 border-orange-200 px-1.5">
-          Livestreams (.tv)</a>
-        </div>
+      <nav class="bg-neutral-800 p-4 text-base font-medium flex flex-wrap justify-center gap-4 rounded-xl shadow my-2">
+        <a href="https://glitchwitch.ca/"
+          class="underline hover:font-extrabold border-x-4 border-orange-400 px-2 transition-colors duration-200">About (.ca)</a>
+        <a href="https://glitchwitch.io/"
+          class="underline hover:font-extrabold border-x-4 border-orange-400 px-2 transition-colors duration-200">Hacking (.io)</a>
+        <a href="https://glitchwitch.fm/"
+          class="underline hover:font-extrabold border-x-4 border-orange-400 px-2 transition-colors duration-200">Music & Flow (.fm)</a>
+        <a href="https://glitchwitch.tv/"
+          class="underline font-extrabold border-x-4 border-orange-400 px-2 transition-colors duration-200 ring-2 ring-orange-400/30 bg-neutral-900/40 rounded"
+          aria-current="page">Livestreams (.tv)</a>
       </nav>
-      <main class="flex-grow p-4 max-w-xl mx-auto">
-        <h1 class="font-medium text-4xl border-b border-dotted mb-4 pt-8 pb-2">GlitchWitch.TV Livestream</h1>
-        <p class="py-2">
-          Ambitions of hanging out with internet randos and friends while live streaming homelab shenanigans, music, and other nerdy shit live here.
-        </p>
-      </main>
-  </body>
 
+      <main class="flex-grow p-6 max-w-2xl mx-auto">
+        <section class="mb-10">
+          <h2 class="font-semibold text-3xl border-b border-orange-900 border-dotted mb-4 pt-8 pb-2">
+            GlitchWitch.TV Livestream
+          </h2>
+          <p class="py-2 leading-relaxed">
+            Ambitions of hanging out with internet randos and friends while live streaming homelab shenanigans, music, and other nerdy stuff live here!
+          </p>
+        </section>
+      </main>
+      <footer class="text-center py-4 text-neutral-500 text-xs">
+        19XX-20XX GlitchWitch.ca &middot; No Rights Reserved
+      </footer>
+    </div>
+  </body>
 </html>
